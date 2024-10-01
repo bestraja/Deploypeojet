@@ -1,0 +1,10 @@
+.productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:6px;
+    align-items: center;
+background-color: rgb(198, 163, 231);
+    padding: 20px;
+  }
+  

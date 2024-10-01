@@ -1,0 +1,50 @@
+.form{
+    background-color: rgb(168, 117, 170);
+    height: max-content;
+    position:relative;
+    left: 20%;
+    top:10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 5%;
+    gap:20px;
+    border-radius: 2%;
+}
+.btn {
+    background-color: rgb(170, 158, 172);
+    padding: 2%;
+    margin: 1%;
+    border: none;
+    width: 20%;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+    height:25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(73, 43, 95);
+}
+
+.btn:active {
+    background-color: rgb(230, 139, 230);
+}
+
+.btn:focus {
+    outline: 2px solid rgb(238, 72, 122);
+    outline-offset: 2px;
+}
+
+.input{
+    border-radius: 10px;
+    border: none;
+}
